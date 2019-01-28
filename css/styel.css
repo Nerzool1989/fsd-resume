@@ -1,0 +1,41 @@
+@font-face {
+    font-weight: normal;
+    font-family: "Myriad Pro";
+    font-style: normal;
+    src: url("../fonts/MyriadProRegular.woff") format("woff");
+}
+
+@font-face {
+    font-weight: bold;
+    font-family: "Myriad Pro";
+    font-style: normal;
+    src: url("../fonts/MyriadProBold.woff") format("woff");
+}
+    
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 2480px;
+    font-size: 14px;
+    font-family: "Myriad Pro", "Arial", sans-serif;
+    font-style: normal;
+    
+
+}
+
+.avatar {
+    border: 1px solid black;
+}
+
+.profile {
+    border: 1px solid blue;
+}
+
+.contact {
+    border: 1px solid blue;
+}
+
+.skills {
+    border: 1px solid blue;;
+}
